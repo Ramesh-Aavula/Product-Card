@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.card {
+    width: 400px;
+    box-shadow:0 0 10px rgb(6, 8, 8) ;
+    border-radius: 5px;
+    margin: 50px;
+}
+.img-container {
+    width: 100%;
+}
+.img-container img {
+    width: 100%;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+h2 {
+    padding:30px 175px;
+    font-family:sans-serif
+}
+p {
+    padding: 10px 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.details-rating i {
+    color: rgb(244, 141, 6);
+
+}
+.details-rating :nth-child(7){
+    color: black;
+} 
+.details-rating,.details-price {
+    padding: 10px;
+}
+.details-price :first-child{
+    font-size:30px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.details-price :nth-child(2){
+    font-family:sans-serif;
+}
